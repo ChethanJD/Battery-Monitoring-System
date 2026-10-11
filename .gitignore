@@ -1,0 +1,25 @@
+# Arduino build/editor artifacts
+build/
+out/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local logs and data
+log.csv
+*.log
+*.csv.tmp
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
